@@ -257,7 +257,7 @@ binder.jieQianBinder();*/
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
                 seekBar.setProgress(seekBar.getProgress());
-                
+
                 Message message = new Message();
                message.obj = seekBar.getProgress();//把当前的进度传过去
                message.what=1;
