@@ -264,7 +264,7 @@ binder.jieQianBinder();*/
                MyService.handler.sendMessage(message);
             }
         });
-
+   ///大点声防守打法
         switch (App.xunhuan){
             case 1:
                 btnXunhuan.setImageResource(R.drawable.ic_play_btn_loop_pressed);
